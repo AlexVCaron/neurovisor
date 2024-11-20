@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "neurovisor"
+version = "0.0.1"
+description = ""
+authors = ["AlexVCaron <alex.valcourt.caron@usherbrooke.ca>"]
+readme = "README.md"
+
+packages = [
+    { include = "neurovisor" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nf-core = "^3.0.2"
+pomegranate = "^1.1.1"
+scilpy = {version = "^2.0.2", python = "<3.11"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
