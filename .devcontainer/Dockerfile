@@ -12,5 +12,4 @@ RUN apt update && apt install -y \
 
 RUN python3 -m pip install pipx && \
     python3 -m pipx ensurepath && \
-    pipx install poetry==${POETRY_VERSION} && \
-    poetry self add poetry-dotenv-plugin
+    pipx install poetry==${POETRY_VERSION}

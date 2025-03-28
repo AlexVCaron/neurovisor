@@ -68,7 +68,10 @@
                     "terminal.activateEnvInCurrentTerminal": true,
                     "terminal.focusAfterLaunch": true
                 }
-            }
+            },
+            "extensions": [
+                "ms-python.python"
+            ]
         }
     },
     "init": true,

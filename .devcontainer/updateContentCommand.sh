@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 echo "done !"
-# poetry install --no-root
+poetry self add poetry-dotenv-plugin
+poetry install
