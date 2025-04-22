@@ -1,4 +1,4 @@
-from interfaces import Workflow
+from .interfaces import Workflow
 
 
 class Subworkflow(Workflow):

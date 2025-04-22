@@ -11,6 +11,9 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false,
+            "args": [
+                "/workspaces/neurovisor/tests/eddy/main.nf"
+            ]
         }
     ]
 }

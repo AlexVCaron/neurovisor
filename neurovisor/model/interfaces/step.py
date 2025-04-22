@@ -1,19 +1,29 @@
 from typing import List
 from collections.abc import MutableMapping
-from . import InputMap, OutputMap, ParameterMap
-from internals import Map
+from . import Command, InputMap, OutputMap, ParameterMap
+from .internals import Map, Serializable
 
 
-class Step:
+class Step(Serializable):
     def __init__(
         self,
         inputs : InputMap,
         outputs : OutputMap,
-        parameters : ParameterMap
+        parameters : ParameterMap,
+        command : Command
     ):
         self.inputs = inputs
         self.outputs = outputs
         self.parameters = parameters
+        self.command = command
+
+    def serialize(self):
+        return {
+            "inputs": self.inputs,
+            "outputs": self.outputs,
+            "parameters": self.parameters,
+            "command": self.command
+        }
 
 
 class StepMap(Map):

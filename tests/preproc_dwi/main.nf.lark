@@ -1,0 +1,1815 @@
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER DENOISING_MPPCA Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/denoising/mppca/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER DENOISING_MPPCA Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_REVDWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/denoising/mppca/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/preproc/gibbs/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_REVDWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/preproc/gibbs/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/betcrop/fslbetcrop/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER IMAGE_CROPVOLUME Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/image/cropvolume/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_N4 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER N4_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/preproc/n4/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_NORMALIZE Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER NORMALIZE_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/preproc/normalize/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER IMAGE_RESAMPLE Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/image/resample/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER IMAGE_RESAMPLE Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_MASK Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/image/resample/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER UTILS_EXTRACTB0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER EXTRACTB0_RESAMPLE Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/utils/extractb0/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER UTILS_EXTRACTB0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding AS as Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER EXTRACTB0_TOPUP Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../../../modules/nf-neuro/utils/extractb0/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER include Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER from Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL ../topup_eddy/main Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding IDENTIFIER workflow Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER take Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_dwi Token.Name
+	Filtered out Token.Text.Whitespace            
+	Filtered out Token.Comment.Single  channel: [ val(meta), dwi, bval, bvec ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_rev_dwi Token.Name
+	Filtered out Token.Text.Whitespace        
+	Filtered out Token.Comment.Single  channel: [ val(meta), rev-dwi, bval, bvec ], optional
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_b0 Token.Name
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  Channel: [ val(meta), b0 ], optional
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_rev_b0 Token.Name
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  channel: [ val(meta), rev-b0 ], optional
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_config_topup Token.Name
+	Filtered out Token.Text.Whitespace   
+	Filtered out Token.Comment.Single  channel: [ 'topup.cnf' ], optional
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER main Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER Channel Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER empty Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_multiqc_files Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER Channel Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER empty Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Denoise DWI ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IF if Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER params Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER preproc_dwi_run_denoising Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi_bvalbvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER multiMap Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ARROW -> Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER dwi Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace     
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER bvs_files Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  Need to append "rev" to the ID, to ensure output filenames
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  are different from the DWI and prevent file collisions
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single   - "cache: meta" is used to save the "real" metadata with valid ID for
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single            join operations, so it can be recovered after execution
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_rev_dwi_bvalbvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_rev_dwi Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER multiMap Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ARROW -> Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER rev_dwi Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace     
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+=> Yielding IDENTIFIER id Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER id Token.Name.Attribute
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART _rev Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER cache Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RBRACK ] Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER rev_bvs_files Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_denoise_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER map Token.Name.Attribute
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER it Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ADD + Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+=> Yielding LBRACK [ Token.Operator
+=> Yielding RBRACK ] Token.Operator
+=> Yielding RBRACK ] Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_denoise_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  ** Denoise REV-DWI ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_denoise_rev_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_rev_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER rev_dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER map Token.Name.Attribute
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER it Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ADD + Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+=> Yielding LBRACK [ Token.Operator
+=> Yielding RBRACK ] Token.Operator
+=> Yielding RBRACK ] Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_REVDWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_denoise_rev_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_REVDWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER ch_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bvs_files Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  Recover the "real" ID from "meta[cache]" (see above), to join with the bval/bvec
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_rev_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER DENOISE_REVDWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER map Token.Name.Attribute
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ARROW -> Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER cache Token.Name.Attribute
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER ch_rev_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER rev_bvs_files Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+	Filtered out Token.Comment.Single  No else, we just use the input DWI
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IF if Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER params Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER preproc_dwi_run_degibbs Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi_bvalbvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER multiMap Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ARROW -> Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER dwi Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace     
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER bvs_files Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_rev_dwi_bvalbvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_rev_dwi Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER multiMap Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ARROW -> Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER rev_dwi Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace     
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+=> Yielding IDENTIFIER id Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER id Token.Name.Attribute
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART _rev Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER cache Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RBRACK ] Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                     
+=> Yielding IDENTIFIER rev_bvs_files Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_DWI Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER ch_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  Need to append "rev" to the ID, to ensure output filenames
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  are different from the DWI and prevent file collisions
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single   - "cache: meta" is used to save the "real" metadata with valid ID for
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single            join operations, so it can be recovered after execution
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_REVDWI Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER ch_rev_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER rev_dwi Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_REVDWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER ch_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bvs_files Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  Recover the "real" ID from "meta[cache]" (see above), to join with the bval/bvec
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_rev_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_GIBBS_REVDWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER map Token.Name.Attribute
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ARROW -> Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER cache Token.Name.Attribute
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACK ] Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER ch_rev_dwi_bvalbvec Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER rev_bvs_files Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding RBRACE } Token.Operator
+	Filtered out Token.Text.Whitespace  
+	Filtered out Token.Comment.Single  No else, we just use the input DWI
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Eddy Topup ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_b0 Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_rev_dwi Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_rev_b0 Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_config_topup Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_multiqc_files Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_multiqc_files Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mqc Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Bet-crop DWI ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_betcrop_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bval Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bvec Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_betcrop_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Crop b0 ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_crop_b0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER b0 Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bbox Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding CAPITALIZED_IDENTIFIER IMAGE_CROPVOLUME Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_crop_b0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER IMAGE_CROPVOLUME Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_dwi_n4 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER Channel Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER empty Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IF if Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER params Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER preproc_dwi_run_N4 Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  ** N4 DWI ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_N4 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER IMAGE_CROPVOLUME Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mask Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding CAPITALIZED_IDENTIFIER N4_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_N4 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER N4_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER N4_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi_n4 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER N4_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Normalize DWI ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_normalize Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bval Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bvec Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mask Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding CAPITALIZED_IDENTIFIER NORMALIZE_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_normalize Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER NORMALIZE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER NORMALIZE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IF if Token.Keyword
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER params Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER preproc_dwi_run_resampling Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  ** Resample DWI ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_resample_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER NORMALIZE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace                 
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER map Token.Name.Attribute
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER it Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ADD + Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+=> Yielding LBRACK [ Token.Operator
+=> Yielding RBRACK ] Token.Operator
+=> Yielding RBRACK ] Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_DWI Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_resample_dwi Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_DWI Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Extract b0 ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_dwi_extract_b0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bval Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER join Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bvec Token.Name.Attribute
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding CAPITALIZED_IDENTIFIER EXTRACTB0_RESAMPLE Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_extract_b0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER EXTRACTB0_RESAMPLE Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+	Filtered out Token.Comment.Single  ** Resample mask ** //
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_resample_mask Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mask Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace             
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER map Token.Name.Attribute
+=> Yielding LBRACE { Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER it Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ADD + Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACK [ Token.Operator
+=> Yielding LBRACK [ Token.Operator
+=> Yielding RBRACK ] Token.Operator
+=> Yielding RBRACK ] Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_MASK Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LPAREN ( Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_resample_mask Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER mix Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_MASK Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER versions Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER first Token.Name.Attribute
+=> Yielding LPAREN ( Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER dwi Token.Name
+	Filtered out Token.Text.Whitespace                  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_preproc Token.Name
+	Filtered out Token.Text.Whitespace                 
+	Filtered out Token.Comment.Single  channel: [ val(meta), dwi-preproc ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER bval Token.Name
+	Filtered out Token.Text.Whitespace                 
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bval Token.Name.Attribute
+	Filtered out Token.Text.Whitespace            
+	Filtered out Token.Comment.Single  channel: [ val(meta), bval-corrected ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER bvec Token.Name
+	Filtered out Token.Text.Whitespace                 
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bvec Token.Name.Attribute
+	Filtered out Token.Text.Whitespace            
+	Filtered out Token.Comment.Single  channel: [ val(meta), bvec-corrected ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER b0 Token.Name
+	Filtered out Token.Text.Whitespace                   
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER EXTRACTB0_RESAMPLE Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER b0 Token.Name.Attribute
+	Filtered out Token.Text.Whitespace      
+	Filtered out Token.Comment.Single  channel: [ val(meta), b0-preproc ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER b0_mask Token.Name
+	Filtered out Token.Text.Whitespace              
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER RESAMPLE_MASK Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER image Token.Name.Attribute
+	Filtered out Token.Text.Whitespace        
+	Filtered out Token.Comment.Single  channel: [ val(meta), b0-mask ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER dwi_bounding_box Token.Name
+	Filtered out Token.Text.Whitespace     
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER BETCROP_FSLBETCROP Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bbox Token.Name.Attribute
+	Filtered out Token.Text.Whitespace    
+	Filtered out Token.Comment.Single  channel: [ val(meta), dwi-bounding-box ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER dwi_topup_eddy Token.Name
+	Filtered out Token.Text.Whitespace       
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER TOPUP_EDDY Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER out Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name.Attribute
+	Filtered out Token.Text.Whitespace             
+	Filtered out Token.Comment.Single  channel: [ val(meta), dwi-after-topup-eddy ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER dwi_n4 Token.Name
+	Filtered out Token.Text.Whitespace               
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_dwi_n4 Token.Name
+	Filtered out Token.Text.Whitespace                      
+	Filtered out Token.Comment.Single  channel: [ val(meta), dwi-after-n4 ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER mqc Token.Name
+	Filtered out Token.Text.Whitespace                  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_multiqc_files Token.Name
+	Filtered out Token.Text.Whitespace               
+	Filtered out Token.Comment.Single  channel: [ val(meta), mqc ]
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER versions Token.Name
+	Filtered out Token.Text.Whitespace             
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER ch_versions Token.Name
+	Filtered out Token.Text.Whitespace                    
+	Filtered out Token.Comment.Single  channel: [ versions.yml ]
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace

@@ -1,7 +1,7 @@
 from typing import List
 from collections.abc import MutableMapping
 from . import Data
-from internals import Map
+from .internals import Map
 
 
 class Parameter(Data):

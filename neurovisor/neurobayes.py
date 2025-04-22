@@ -1,4 +1,4 @@
 
 
 class NeuroBayes:
-    
+    pass

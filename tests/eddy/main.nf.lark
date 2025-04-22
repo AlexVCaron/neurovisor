@@ -1,0 +1,1665 @@
+=> Yielding IDENTIFIER process Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding CAPITALIZED_IDENTIFIER PREPROC_EDDY Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding LBRACE { Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER tag Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER meta Token.Literal.String.GString.GStringPath
+=> Yielding DOT . Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER id Token.Literal.String.GString.GStringPath
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER label Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL process_high Token.Literal.String.Single
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER container Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER workflow Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER containerEngine Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding EQUAL == Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding STRING_LITERAL singularity Token.Literal.String.Single
+	Filtered out Token.Text.Whitespace  
+=> Yielding AND && Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding NOT ! Token.Operator
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER singularity_pull_docker_container Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART https://scil.usherbrooke.ca/containers/scilus_latest.sif Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding COLON : Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART scilus/scilus:latest Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER input Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER bvec Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER rev_dwi Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER rev_bval Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER rev_bvec Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER corrected_b0s Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER topup_fieldcoef Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER topup_movpart Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER output Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART *__dwi_corrected.nii.gz Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace     
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi_corrected Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART *__dwi_eddy_corrected.bval Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bval_corrected Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART *__dwi_eddy_corrected.bvec Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bvec_corrected Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART *__b0_bet_mask.nii.gz Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace       
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER b0_mask Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART *__dwi_eddy_mqc.gif Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace         
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dwi_eddy_mqc Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER optional Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding BOOLEAN_LITERAL true Token.Keyword.Constant
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER tuple Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER val Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding RPAREN ) Token.Operator
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER path Token.Name
+=> Yielding LPAREN ( Token.Operator
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART *__rev_dwi_eddy_mqc.gif Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding RPAREN ) Token.Operator
+	Filtered out Token.Text.Whitespace     
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER rev_dwi_eddy_mqc Token.Name
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER optional Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding BOOLEAN_LITERAL true Token.Keyword.Constant
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace         
+=> Yielding IDENTIFIER path Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART versions.yml Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+	Filtered out Token.Text.Whitespace                                  
+=> Yielding COMMA , Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER emit Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER versions Token.Name
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER when Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER when Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding EQUAL == Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding NULL_LITERAL null Token.Keyword.Constant
+	Filtered out Token.Text.Whitespace  
+=> Yielding OR || Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER when Token.Name.Attribute
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER script Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER prefix Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER prefix Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding ELVIS ?: Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER id Token.Name.Attribute
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER slice_drop_flag Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER slice_drop_correction Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART --slice_drop_correction  Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bet_topup_before_eddy_f Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bet_topup_before_eddy_f Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding ELVIS ?: Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER prefix_topup Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER prefix_topup Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER prefix_topup Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER b0_thr_extract_b0 Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER b0_thr_extract_b0 Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER b0_thr_extract_b0 Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER encoding Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER encoding Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER encoding Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER readout Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER readout Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER readout Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER dilate_b0_mask_prelim_brain_extraction Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dilate_b0_mask_prelim_brain_extraction Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER dilate_b0_mask_prelim_brain_extraction Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER eddy_cmd Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER eddy_cmd Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER eddy_cmd Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART eddy_cpu Token.Literal.String.Double
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER bet_prelim_f Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bet_prelim_f Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER bet_prelim_f Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER extra_args Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER extra_args Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding ELVIS ?: Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER run_qc Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER run_qc Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding QUESTION ? Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER run_qc Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding COLON : Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding BOOLEAN_LITERAL false Token.Keyword.Constant
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding GSTRING_BEGIN """ Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART 
+    export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER task Token.Literal.String.GString.GStringPath
+=> Yielding DOT . Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER cpus Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+    export OMP_NUM_THREADS= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER task Token.Literal.String.GString.GStringPath
+=> Yielding DOT . Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER cpus Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+    export OPENBLAS_NUM_THREADS=1
+    export ANTS_RANDOM_SEED=7468
+    export MRTRIX_RNG_SEED=12345
+
+    orig_bval= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER bval Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+    # Concatenate DWIs
+    number_rev_dwi=0
+    if [[ -f  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER rev_dwi Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ]];
+    then
+        scil_dwi_concatenate.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __concatenated_dwi.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __concatenated_dwi.bval  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __concatenated_dwi.bvec -f Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --in_dwis  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER rev_dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART  --in_bvals  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER rev_bval Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --in_bvecs  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER bvec Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER rev_bvec Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART 
+
+        number_rev_dwi= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (scil_header_print_info.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER rev_dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART  --key dim | sed  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART s/  / /g Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  | sed  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART s/  / /g Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  | rev | cut -d' ' -f4-4 | rev)
+
+        dwi= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __concatenated_dwi.nii.gz
+        bval= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __concatenated_dwi.bval
+        bvec= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __concatenated_dwi.bvec
+    else
+        dwi= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART 
+        bval= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER bval Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART 
+        bvec= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER bvec Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART 
+    fi
+
+    # If topup has been run before
+    if [[ -f  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER topup_fieldcoef Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ]]
+    then
+        mrconvert  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER corrected_b0s Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  b0_corrected.nii.gz -coord 3 0 -axes 0,1,2 -nthreads  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER task Token.Literal.String.GString.GStringPath
+=> Yielding DOT . Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER cpus Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+        bet b0_corrected.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet.nii.gz -m -R Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             -f  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER bet_topup_before_eddy_f Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+
+        scil_dwi_prepare_eddy_command.py  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {dwi}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bval}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bvec}  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask.nii.gz Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --topup  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER prefix_topup Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  --eddy_cmd  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER eddy_cmd Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --b0_thr  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER b0_thr_extract_b0 Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --encoding_direction  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER encoding Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --readout  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER readout Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  --out_script --fix_seed Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --n_reverse  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {number_rev_dwi} Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --lsr_resampling Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART              Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER slice_drop_flag Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+    else
+        scil_dwi_extract_b0.py  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {dwi}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bval}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bvec}  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0.nii.gz --mean Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --b0_threshold  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER b0_thr_extract_b0 Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  --skip_b0_check
+        bet  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet.nii.gz -m -R -f  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER bet_prelim_f Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+        scil_volume_math.py convert  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask.nii.gz --data_type uint8 -f
+        maskfilter  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask.nii.gz dilate  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask_dilated.nii.gz Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --npass  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER dilate_b0_mask_prelim_brain_extraction Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  -nthreads  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER task Token.Literal.String.GString.GStringPath
+=> Yielding DOT . Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER cpus Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+        scil_volume_math.py multiplication  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask_dilated.nii.gz Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART              Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet.nii.gz --data_type float32 -f
+
+        scil_dwi_prepare_eddy_command.py  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {dwi}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bval}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bvec}  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask.nii.gz Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --eddy_cmd  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER eddy_cmd Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  --b0_thr  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER b0_thr_extract_b0 Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --encoding_direction  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER encoding Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART             --readout  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER readout Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  --out_script --fix_seed Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART              Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER slice_drop_flag Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART 
+    fi
+
+    echo  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART --very_verbose  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER extra_args Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART  --nthr= Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER task Token.Literal.String.GString.GStringPath
+=> Yielding DOT . Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER cpus Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  >> eddy.sh
+    sh eddy.sh
+    scil_volume_math.py lower_clip dwi_eddy_corrected.nii.gz 0  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected.nii.gz
+
+    if [[  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART number_rev_dwi -eq 0 ]]
+    then
+        mv dwi_eddy_corrected.eddy_rotated_bvecs  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bvec
+        mv  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {orig_bval}  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bval
+    else
+        scil_gradients_validate_correct_eddy.py dwi_eddy_corrected.eddy_rotated_bvecs  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {bval}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {number_rev_dwi}  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bvec  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bval
+    fi
+
+    if  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER run_qc Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART ;
+    then
+        extract_dim= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (mrinfo  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART  -size)
+        read sagittal_dim coronal_dim axial_dim fourth_dim <<<  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {extract_dim} Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+
+        # Get the middle slice
+        coronal_dim= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (( Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART coronal_dim / 2))
+        axial_dim= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (( Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART axial_dim / 2))
+        sagittal_dim= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (( Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART sagittal_dim / 2))
+
+        viz_params= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART --display_slice_number --display_lr --size 256 256 Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+        rev_dwi= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART "" Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+        if [[ -f  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER rev_dwi Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ]];
+        then
+            scil_dwi_powder_average.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER rev_dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bval  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi_powder_average.nii.gz
+            scil_volume_math.py normalize_max  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi_powder_average.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi_powder_average_norm.nii.gz
+            rev_dwi= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART rev_dwi Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+        fi
+        scil_dwi_powder_average.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER dwi Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bval  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_powder_average.nii.gz
+        scil_dwi_powder_average.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bval  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected_powder_average.nii.gz
+        scil_volume_math.py normalize_max  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_powder_average.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_powder_average_norm.nii.gz
+        scil_volume_math.py normalize_max  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected_powder_average.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected_powder_average_norm.nii.gz
+
+        for image in dwi_corrected dwi  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {rev_dwi}
+        do
+            scil_viz_volume_screenshot.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_powder_average_norm.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_coronal.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {viz_params} --slices  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {coronal_dim} --axis coronal
+            scil_viz_volume_screenshot.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_powder_average_norm.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_axial.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {viz_params} --slices  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {axial_dim} --axis axial
+            scil_viz_volume_screenshot.py  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_powder_average_norm.nii.gz  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_sagittal.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {viz_params} --slices  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {sagittal_dim} --axis sagittal
+
+            if [  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART image ==  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART dwi_corrected Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ] || [  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART image ==  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART rev_dwi Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ]
+            then
+                title= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART After Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+            else
+                title= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART Before Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+            fi
+
+            convert +append  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_coronal_slice_ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {coronal_dim}.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                      Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_axial_slice_ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {axial_dim}.png   Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                      Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}_sagittal_slice_ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {sagittal_dim}.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                      Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}.png
+
+            convert -annotate +20+230  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {title} Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  -fill white -pointsize 30  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}.png  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {image}.png
+        done
+
+        if [[ -f  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.GStringPath
+=> Yielding IDENTIFIER rev_dwi Token.Literal.String.GString.GStringPath
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ]];
+        then
+            convert -delay 10 -loop 0 -morph 10  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi.png  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected.png  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi_eddy_mqc.gif
+        fi
+
+        convert -delay 10 -loop 0 -morph 10  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi.png  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected.png  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi.png  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART 
+ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART                  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_mqc.gif
+
+        rm -rf *png
+        rm -rf *powder_average*
+    fi
+
+    cat <<-END_VERSIONS > versions.yml
+     Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER process Token.Name.Attribute
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART :
+        scilpy:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (pip list | grep scilpy | tr -s ' ' | cut -d' ' -f2)
+        mrtrix:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (dwidenoise -version 2>&1 | sed -n 's/== dwidenoise  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([0-9.] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART + Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ).*/ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART 1/p')
+        fsl:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (flirt -version 2>&1 | sed -n 's/FLIRT version  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([0-9.] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART + Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART )/ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART 1/p')
+        imagemagick:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (convert -version | sed -n 's/.*ImageMagick  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([0-9] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {1, Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART } Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART .[0-9] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {1, Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART } Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART .[0-9] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {1, Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART } Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ).*/ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART 1/p')
+    END_VERSIONS
+     Token.Literal.String.Double
+=> Yielding GSTRING_END """ Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding IDENTIFIER stub Token.Name.Label
+=> Yielding COLON : Token.Name.Label
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding DEF def Token.Keyword.Type
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER prefix Token.Name
+	Filtered out Token.Text.Whitespace  
+=> Yielding ASSIGN = Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER ext Token.Name.Attribute
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER prefix Token.Name.Attribute
+	Filtered out Token.Text.Whitespace  
+=> Yielding ELVIS ?: Token.Operator
+	Filtered out Token.Text.Whitespace  
+=> Yielding GSTRING_BEGIN " Token.Literal.String.GString.GStringBegin
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER meta Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER id Token.Name.Attribute
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding GSTRING_END " Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding NL 
+ Token.Text.Whitespace
+	Filtered out Token.Text.Whitespace     
+=> Yielding GSTRING_BEGIN """ Token.Literal.String.GString.GStringBegin
+=> Yielding STRING_LITERAL_PART 
+    touch  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_corrected.nii.gz
+    touch  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_mqc.gif
+    touch  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __rev_dwi_eddy_mqc.gif
+    touch  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bval
+    touch  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __dwi_eddy_corrected.bvec
+    touch  Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER prefix Token.Name
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART __b0_bet_mask.nii.gz
+
+    cat <<-END_VERSIONS > versions.yml
+     Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding GSTRING_PART $ Token.Literal.String.GString.ClosureBegin
+=> Yielding LBRACE { Token.Literal.String.GString.ClosureBegin
+=> Yielding IDENTIFIER task Token.Name
+=> Yielding DOT . Token.Operator
+=> Yielding IDENTIFIER process Token.Name.Attribute
+=> Yielding RBRACE } Token.Literal.String.GString.ClosureEnd
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART :
+        scilpy:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (pip list | grep scilpy | tr -s ' ' | cut -d' ' -f2)
+        mrtrix:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (dwidenoise -version 2>&1 | sed -n 's/== dwidenoise  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([0-9.] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART + Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ).*/ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART 1/p')
+        fsl:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (flirt -version 2>&1 | sed -n 's/FLIRT version  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([0-9.] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART + Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART )/ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART 1/p')
+        imagemagick:  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART (convert -version | sed -n 's/.*ImageMagick  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([0-9] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {1, Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART } Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART .[0-9] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {1, Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART } Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART .[0-9] Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {1, Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART } Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ).*/ Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART \ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART 1/p')
+    END_VERSIONS
+
+    function handle_code () {
+    local code= Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ?
+    ignore=( 1 )
+    exit  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART ([[  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART {ignore[@]}  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  =~  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART   Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART code  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART " Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART  ]] && echo 0 || echo  Token.Literal.String.Double
+=> Yielding STRING_LITERAL_PART $ Token.Literal.String.Escape
+=> Yielding STRING_LITERAL_PART code)
+    }
+    trap 'handle_code' ERR
+
+    scil_volume_math.py -h
+    maskfilter -h
+    bet -h
+    scil_dwi_extract_b0.py -h
+    scil_gradients_validate_correct_eddy.py -h
+    scil_dwi_concatenate.py -h
+    mrconvert -h
+    scil_dwi_prepare_eddy_command.py -h
+    scil_header_print_info.py -h
+    scil_viz_volume_screenshot -h
+    convert
+     Token.Literal.String.Double
+=> Yielding GSTRING_END """ Token.Literal.String.GString.GStringEnd
+=> Yielding NL 
+ Token.Text.Whitespace
+=> Yielding RBRACE } Token.Operator
+=> Yielding NL 
+ Token.Text.Whitespace

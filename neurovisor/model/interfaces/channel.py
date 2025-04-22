@@ -1,7 +1,8 @@
+from .internals import Serializable
 from . import Input, Output
 
 
-class Channel:
+class Channel(Serializable):
     def __init__(
         self,
         input : Input,
@@ -9,3 +10,9 @@ class Channel:
     ):
         self.input = input
         self.output = output
+
+    def serialize(self):
+        return {
+            "input": self.input,
+            "output": self.output
+        }

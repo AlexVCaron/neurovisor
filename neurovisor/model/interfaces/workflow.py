@@ -1,7 +1,8 @@
 from . import InputMap, OutputMap, StepMap, ParameterMap
+from . import Step
 
 
-class Workflow:
+class Workflow(Step):
     def __init__(
         self,
         inputs : InputMap,
@@ -9,7 +10,13 @@ class Workflow:
         steps : StepMap,
         config : ParameterMap
     ):
-        self.inputs = inputs
-        self.outputs = outputs
+        super().__init__(inputs, outputs, config)
         self.steps = steps
-        self.config = config
+
+    def serialize(self):
+        return {
+            **super().serialize(),
+            **{
+                "steps": self.steps
+            }
+        }
