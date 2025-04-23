@@ -1,4 +1,4 @@
-from .interfaces import Workflow
+from neurovisor.model import Workflow
 
 
 class Subworkflow(Workflow):

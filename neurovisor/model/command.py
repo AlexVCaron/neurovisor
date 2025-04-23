@@ -20,13 +20,13 @@ class ContainerCommand(Command):
     def __init__(
         self,
         command : str,
-        container : Container
+        containers : list[Container]
     ):
         super().__init__(command)
-        self.container = container
+        self.containers = containers
 
     def serialize(self):
         return {
             **super().serialize(),
-            **{"container": self.container}
+            **{"container": self.containers}
         }

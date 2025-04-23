@@ -5,7 +5,15 @@ from .internals import Map
 
 
 class Input(Dataflow):
-    pass
+    def __init__(self, spec, data=None):
+        self.spec = spec
+        super().__init__(data)
+
+    def serialize(self):
+        return {
+            **super().serialize(),
+            **{"spec": self.spec}
+        }
 
 
 class InputMap(Map):

@@ -1,5 +1,9 @@
 from .channel import Channel
-from .configuration import Configuration
-from .module import Module
-from .subworkflow import Subworkflow
-from .pipeline import Pipeline
+from .command import Command, ContainerCommand
+from .container import Container
+from .data import Data, Dataflow
+from .input import Input, InputMap
+from .output import Output, OutputMap
+from .parameter import Parameter, ParameterMap
+from .step import Step, StepMap
+from .workflow import Workflow

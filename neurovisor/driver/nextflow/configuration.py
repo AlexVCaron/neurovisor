@@ -1,4 +1,4 @@
-from .interfaces import ParameterMap
+from neurovisor.model import ParameterMap
 
 
 class Configuration(ParameterMap):

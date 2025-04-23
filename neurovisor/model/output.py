@@ -5,7 +5,16 @@ from .internals import Map
 
 
 class Output(Dataflow):
-    pass
+    def __init__(self, spec, optional=False, data=None):
+        self.spec = spec
+        self.optional = optional
+        super().__init__(data)
+
+    def serialize(self):
+        return {
+            **super().serialize(),
+            **{"spec": self.spec, "optional": self.optional}
+        }
 
 
 class OutputMap(Map):
