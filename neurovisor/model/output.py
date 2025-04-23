@@ -20,8 +20,8 @@ class Output(Dataflow):
 class OutputMap(Map):
     def __init__(
         self,
-        names : List[str],
-        outputs : List[Output],
+        names : List[str] | None = None,
+        outputs : List[Output] | None = None,
         initializer : MutableMapping[str, Output] | None = None
     ):
         super().__init__(names, outputs, initializer)

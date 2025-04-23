@@ -10,8 +10,9 @@ class NextflowParser:
     @classmethod
     def parse_module(cls, module_path : str):
         remainder, name = split(module_path)
-        directory, remainder = split(remainder)
-        return NextflowParser._parse_groovy(join(remainder, name), directory)
+        _, remainder = split(remainder)
+        return NextflowParser._parse_groovy(
+            "_".join([remainder, name]), module_path)
 
         # module = NFCoreComponent(
         #     "_".join(module_path.split("/")[-2:]).upper(),
@@ -54,8 +55,8 @@ class NextflowParser:
 
     @classmethod
     def parse_subworkflow(cls, subworkflow_path: str):
-        directory, name = split(subworkflow_path)
-        return NextflowParser._parse_groovy(directory, name)
+        _, name = split(subworkflow_path)
+        return NextflowParser._parse_groovy(name, subworkflow_path)
 
     @classmethod
     def parse_configuration(cls, config_path: str):
@@ -63,12 +64,12 @@ class NextflowParser:
 
     @classmethod
     def parse_pipeline(cls, pipeline_path: str):
-        directory, name = split(pipeline_path)
-        return NextflowParser._parse_groovy(directory, name, False)
+        _, name = split(pipeline_path)
+        return NextflowParser._parse_groovy(name, pipeline_path, meta=False)
 
     @classmethod
     def _parse_groovy(cls, name, directory, meta=True):
-        with open(join(directory, name), "r") as f:
+        with open(join(directory, "main.nf"), "r") as f:
             json_tree = parse_and_digest_groovy_content(
                 f.read(),
                 CacheManager.get_cache_directory(),

@@ -42,7 +42,7 @@ def create_output_map(outputs):
     #   map of named output fields
     #   e.g. {"img": Output("tuple val(meta),path(img)")}
     def _unpack(output):
-        _name, _out = None, {}
+        _name, _out = None, {"spec": []}
         _it = output.split(",")
         for _part in _it[::-1]:
             if "optional" in _part:
@@ -50,7 +50,9 @@ def create_output_map(outputs):
             elif "emit" in _part:
                 _name = _part.split(":")[1].strip()
             else:
-                _out["spec"] = _part.strip()
+                _out["spec"].append(_part.strip())
+
+        _out["spec"] = ",".join(_out["spec"][::-1])
         return (_name, Output(**_out))
 
     return OutputMap(initializer=dict(_unpack(o) for o in outputs))
@@ -76,25 +78,27 @@ def create_container_command(script, containers):
     # container_command : ContainerCommand
     #   container command object
     #   e.g. ContainerCommand(script, [Container("container_name", ParameterMap())])
-    if "?" in containers:
-        containers = containers.split("?")[1]
+    _containers = []
+    for container in containers:
+        if "?" in container:
+            container = container.split("?")[1]
 
-    containers = containers.split("{")[-1].split("}")[0]
+        container = container.split("{")[-1].split("}")[0]
 
-    if ":" in containers:
-        containers = [c.strip() for c in containers.split(":")]
-    else:
-        containers = [containers.strip()]
+        if ":" in container:
+            _containers.extend([c.strip() for c in container.split(":")])
+        else:
+            _containers.append(container.strip())
 
     return ContainerCommand(
-        script, [Container(c, ParameterMap()) for c in containers])
+        script, [Container(c.strip('"'), ParameterMap()) for c in _containers])
 
 
 class Module(_Step):
-    def __init__(self, filename: str):
-        module = NextflowParser.parse_module(filename)
+    def __init__(self, module_path: str):
+        module = NextflowParser.parse_module(module_path)
         super().__init__(
-            create_input_map(module["inputs"]),
-            create_output_map(module["outputs"]),
+            create_input_map(module["input"]),
+            create_output_map(module["output"]),
             create_parameters_map(module["args"]),
-            create_container_command(module["script"], module["containers"]))
+            create_container_command(module["script"], module["container"]))

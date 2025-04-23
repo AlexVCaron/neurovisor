@@ -19,8 +19,8 @@ class Input(Dataflow):
 class InputMap(Map):
     def __init__(
         self,
-        names : List[str],
-        inputs : List[Input],
+        names : List[str] | None = None,
+        inputs : List[Input] | None = None,
         initializer : MutableMapping[str, Input] | None = None
     ):
         super().__init__(names, inputs, initializer)

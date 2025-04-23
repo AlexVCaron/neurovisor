@@ -28,5 +28,5 @@ class ContainerCommand(Command):
     def serialize(self):
         return {
             **super().serialize(),
-            **{"container": self.containers}
+            **{"containers": [c.serialize() for c in self.containers]}
         }

@@ -16,6 +16,6 @@ class Dataflow(Serializable):
 
     def serialize(self):
         return {
-            "type": type(self),
+            "type": f"{type(self).__module__}.{type(self).__name__}",
             "data": self.data
         }
